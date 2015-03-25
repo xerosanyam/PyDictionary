@@ -7,3 +7,8 @@ Displays
   <li>Adjective, Noun, etc.</li>
   <li>Examples</li>
 </ol>
+
+Usage
+```python
+python dict.py
+```
