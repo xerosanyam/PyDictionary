@@ -1,13 +1,19 @@
 #!/usr/bin/env python
 try:
 	import requests
-	import os
+except ImportError:
+    print("\nA package called requests is required to run this script.")
+    print("Install it by : sudo apt-get install python-requests\n")
+    quit()
+	
+try:
 	from bs4 import BeautifulSoup
 except ImportError:
     print("\nA package called Beautiful Soup is required to run this script.")
     print("Install it by : sudo apt-get install python-bs4\n")
     quit()
 
+import os
 ch='y'
 while ch=='y':
 
