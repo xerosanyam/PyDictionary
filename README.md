@@ -8,7 +8,7 @@ Displays
   <li>Examples</li>
 </ol>
 
-Usage
+## Usage
 ```python
 python dict.py
 ```
